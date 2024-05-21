@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\rencpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F7A323-787F-4018-9B98-011019E1F0CA}|..\\ren_app\\ren_app.vcxproj|D:\\dev\\ren_app\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F7A323-787F-4018-9B98-011019E1F0CA}|..\\ren_app\\ren_app.vcxproj|D:\\dev\\ren_app\\shaders\\def\\flat.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_window.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_window.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F7A323-787F-4018-9B98-011019E1F0CA}|..\\ren_app\\ren_app.vcxproj|D:\\dev\\ren_app\\shaders\\def\\flat.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_shader.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_buffer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_buffer.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|D:\\dev\\rencpp\\src\\backend\\rcp_buffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{219C20BC-5536-4D06-AF50-3D731093ED73}|rencpp.vcxproj|solutionrelative:src\\backend\\rcp_buffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "flat.frag",
+              "DocumentMoniker": "D:\\dev\\ren_app\\shaders\\def\\flat.frag",
+              "RelativeDocumentMoniker": "..\\ren_app\\shaders\\def\\flat.frag",
+              "ToolTip": "D:\\dev\\ren_app\\shaders\\def\\flat.frag",
+              "RelativeToolTip": "..\\ren_app\\shaders\\def\\flat.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-21T07:42:09.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "flat.vert",
+              "DocumentMoniker": "D:\\dev\\ren_app\\shaders\\def\\flat.vert",
+              "RelativeDocumentMoniker": "..\\ren_app\\shaders\\def\\flat.vert",
+              "ToolTip": "D:\\dev\\ren_app\\shaders\\def\\flat.vert",
+              "RelativeToolTip": "..\\ren_app\\shaders\\def\\flat.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-21T07:41:57.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rcp_shader.cpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_shader.cpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_shader.cpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_shader.cpp",
+              "RelativeToolTip": "src\\backend\\rcp_shader.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-21T07:13:22.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "rcp_shader.hpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_shader.hpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_shader.hpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_shader.hpp",
+              "RelativeToolTip": "src\\backend\\rcp_shader.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-21T07:13:07.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "rcp_buffer.cpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_buffer.cpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_buffer.cpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_buffer.cpp",
+              "RelativeToolTip": "src\\backend\\rcp_buffer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-21T06:17:36.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "rcp_buffer.hpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_buffer.hpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_buffer.hpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_buffer.hpp",
+              "RelativeToolTip": "src\\backend\\rcp_buffer.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-21T06:17:15.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rcp_window.cpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_window.cpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_window.cpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_window.cpp",
+              "RelativeToolTip": "src\\backend\\rcp_window.cpp",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-21T05:25:04.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rcp_window.hpp",
+              "DocumentMoniker": "D:\\dev\\rencpp\\src\\backend\\rcp_window.hpp",
+              "RelativeDocumentMoniker": "src\\backend\\rcp_window.hpp",
+              "ToolTip": "D:\\dev\\rencpp\\src\\backend\\rcp_window.hpp",
+              "RelativeToolTip": "src\\backend\\rcp_window.hpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-21T05:22:20.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\dev\\ren_app\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\ren_app\\src\\main.cpp",
+              "ToolTip": "D:\\dev\\ren_app\\src\\main.cpp",
+              "RelativeToolTip": "..\\ren_app\\src\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-21T05:16:23.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
