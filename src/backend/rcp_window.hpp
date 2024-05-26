@@ -30,7 +30,7 @@ namespace rcp {
 		GLFWwindow* handle;
 		int width, height;
 		const char* title;
-		bool vsync;
+		bool vsync = true;
 
 		std::array<int, 512> keys;
 		std::array<int, 128> buttons;

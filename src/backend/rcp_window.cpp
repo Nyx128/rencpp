@@ -45,6 +45,8 @@ namespace rcp {
         case GL_DEBUG_SEVERITY_NOTIFICATION: std::cout << "Severity: notification"; break;
         } std::cout << std::endl;
         std::cout << std::endl;
+
+        if (type == GL_DEBUG_TYPE_ERROR) { throw std::runtime_error("OPENGL Error, terminating execution"); }
 	}
 #endif
     void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods){
@@ -70,13 +72,7 @@ namespace rcp {
 			glfwTerminate();
 			throw std::runtime_error("Failed to create window");
 		}
-
-        if (vsync) {
-            glfwSwapInterval(1);
-        }
-        else {
-            glfwSwapInterval(0);
-        }
+        
 
 		glfwMakeContextCurrent(handle);
         glfwSetWindowUserPointer(handle, this);
@@ -90,6 +86,7 @@ namespace rcp {
         glDebugMessageCallback(glDebugOutput, nullptr);
         glDebugMessageControl(GL_DONT_CARE, GL_DONT_CARE, GL_DONT_CARE, 0, nullptr, GL_TRUE);
 #endif
+        glViewport(0, 0, width, height);
 
         for (int i = 0; i < keys.size(); i++) {
             keys[i] = false;
@@ -97,6 +94,13 @@ namespace rcp {
 
         for (int i = 0; i < buttons.size(); i++) {
             buttons[i] = false;
+        }
+
+        if (vsync) {
+            glfwSwapInterval(1);
+        }
+        else {
+            glfwSwapInterval(0);
         }
 	}
 
