@@ -28,7 +28,7 @@ namespace rcp {
 			GLuint texture;
 			glm::ivec2 size;
 			glm::ivec2 bearing;
-			uint32_t advance;
+			glm::uvec2 advance;
 		};
 
 		std::array<Character, 128>& getCharacterMap(int pixelSize);
@@ -44,5 +44,6 @@ namespace rcp {
 		void loadFace(int pixelSize);
 
 		std::unordered_map<int, std::array<Character, 128>> character_maps;
+
 	};
 }

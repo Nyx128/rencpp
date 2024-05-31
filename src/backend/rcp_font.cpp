@@ -86,8 +86,11 @@ namespace rcp {
 				char_map[c].texture = texture;
 				char_map[c].size = glm::ivec2(face->glyph->bitmap.width, face->glyph->bitmap.rows);
 				char_map[c].bearing = glm::ivec2(face->glyph->bitmap_left, face->glyph->bitmap_top);
-				char_map[c].advance = face->glyph->advance.x;
+				char_map[c].advance.x = face->glyph->advance.x;
+				char_map[c].advance.y = face->glyph->advance.y;
 			}
+			glPixelStorei(GL_PACK_ALIGNMENT, 4);
+			glBindTexture(GL_TEXTURE_2D, 0);
 			character_maps.emplace(pixelSize, char_map);
 			return character_maps[pixelSize];
 		}

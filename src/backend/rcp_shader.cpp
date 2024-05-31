@@ -49,6 +49,10 @@ namespace rcp {
 		glUniform1i(getUniformLocation(name), val);
 	}
 
+	void Shader::getFloat(std::string name, float* val){
+		glGetUniformfv(handle, getUniformLocation(name), val);
+	}
+
 	void Shader::reload(){
 		glDeleteProgram(handle);
 		std::string vSrc = readFile(vPath);
@@ -101,6 +105,7 @@ namespace rcp {
 		}
 		else {
 			GLuint loc = glGetUniformLocation(handle, val.c_str());
+			if (loc == UINT32_MAX) { throw std::runtime_error("trying to access uniform that doesnt exist"); }
 			uniformMap[val] = loc;
 			return loc;
 		}

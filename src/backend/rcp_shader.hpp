@@ -25,6 +25,8 @@ namespace rcp {
 		void updateFloat(std::string name, float val);
 		void updateInt(std::string name, int val);
 
+		void getFloat(std::string name, float* val);
+
 		void reload();
 		void bind();
 	private:

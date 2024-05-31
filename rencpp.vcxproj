@@ -152,7 +152,9 @@
     <ClCompile Include="include\glm\detail\glm.cpp" />
     <ClCompile Include="include\glm\glm.cppm" />
     <ClCompile Include="src\backend\rcp_buffer.cpp" />
+    <ClCompile Include="src\backend\rcp_image.cpp" />
     <ClCompile Include="src\backend\rcp_shader.cpp" />
+    <ClCompile Include="src\backend\rcp_texture.cpp" />
     <ClCompile Include="src\backend\rcp_window.cpp" />
     <ClCompile Include="src\backend\rcp_font.cpp" />
     <ClCompile Include="src\game\rcp_text.cpp" />
@@ -192,6 +194,7 @@
     <ClCompile Include="src\GLFW\x11_monitor.c" />
     <ClCompile Include="src\GLFW\x11_window.c" />
     <ClCompile Include="src\GLFW\xkb_unicode.c" />
+    <ClCompile Include="src\util\rcp_io.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\freetype\config\ftconfig.h" />
@@ -586,8 +589,11 @@
     <ClInclude Include="include\glm\vec4.hpp" />
     <ClInclude Include="include\glm\vector_relational.hpp" />
     <ClInclude Include="include\KHR\khrplatform.h" />
+    <ClInclude Include="include\stb\stb_image.h" />
     <ClInclude Include="src\backend\rcp_buffer.hpp" />
+    <ClInclude Include="src\backend\rcp_image.hpp" />
     <ClInclude Include="src\backend\rcp_shader.hpp" />
+    <ClInclude Include="src\backend\rcp_texture.hpp" />
     <ClInclude Include="src\backend\rcp_window.hpp" />
     <ClInclude Include="src\backend\rcp_font.hpp" />
     <ClInclude Include="src\game\rcp_text.hpp" />
@@ -610,6 +616,7 @@
     <ClInclude Include="src\GLFW\wl_platform.h" />
     <ClInclude Include="src\GLFW\x11_platform.h" />
     <ClInclude Include="src\GLFW\xkb_unicode.h" />
+    <ClInclude Include="src\util\rcp_io.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="include\glm\detail\func_common.inl" />
